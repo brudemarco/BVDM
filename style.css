@@ -229,6 +229,20 @@ text-shadow: 0 .1em .5em rgba(79, 80, 80, 0.507);
   background-color: khaki;
    
  }
+ .bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
 
 
  /*Animation*/
@@ -361,3 +375,6 @@ text-shadow: 0 .1em .5em rgba(79, 80, 80, 0.507);
   .box {
     font-size: 40px;
   
+/*bootstrap tabs*/
+
+

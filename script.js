@@ -13,7 +13,7 @@ function back() {
 
 //bootstrap animation
 
-const loadingAnimationTime = 100
+const loadingAnimationTime = 30
 
 const showMainAnimation = (parent) => {
   const boxContainer = document.createElement("div");
@@ -62,3 +62,4 @@ const init = () => {
 };
 
 init();
+
