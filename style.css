@@ -1,9 +1,10 @@
 body{
-    background-color: rgba(224, 224, 224, 0.555);
+    background-color: rgba(102, 98, 98, 0.555);
     position: absolute;
     padding: 1em;
     
 }
+
 #menu {
     background-color: black;
     border-radius: .4em;
@@ -11,6 +12,7 @@ body{
     padding: 1em;
     padding-left: 1em;
     margin: -2em;
+  
     
 
 }
@@ -143,6 +145,10 @@ section{
 
    
 }
+
+.card mb-4 shadow-sm{
+  border-radius: 3em;
+}
 footer{
 text-align: center;
 font-style: italic;
@@ -159,7 +165,7 @@ text-shadow: 0 .1em .5em rgba(79, 80, 80, 0.507);
     padding-top: 3rem;
     padding-bottom: 3rem;
     margin-bottom: 0;
-    background-color: #fff;
+    background-color: rgb(185, 174, 174);
   }
   @media (min-width: 768px) {
     .jumbotron {
@@ -204,7 +210,7 @@ text-shadow: 0 .1em .5em rgba(79, 80, 80, 0.507);
     
   }
   .container{
-    background-color: rgba(203, 211, 206, 0.678);
+    background-color: rgba(69, 71, 70, 0.459);
   
   }
   
@@ -245,7 +251,7 @@ text-shadow: 0 .1em .5em rgba(79, 80, 80, 0.507);
 
 :root {
   --contrast: #112d4e;
-  --bgColor: #defcf9;
+  --bgColor: #a9b3b2;
   --fontColor: #112d4e;
 }
 
@@ -369,6 +375,8 @@ text-shadow: 0 .1em .5em rgba(79, 80, 80, 0.507);
   .box {
     font-size: 40px;
   
-/*bootstrap tabs*/
+
+    
+  }
 
 
