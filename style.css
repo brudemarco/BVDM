@@ -1,6 +1,6 @@
 body{
     background-color: rgba(102, 98, 98, 0.555);
-    position: absolute;
+    
     padding: 1em;
     
 }
@@ -92,7 +92,7 @@ header{
 }
 section{
  
-    background: whitesmoke;
+    background: rgba(63, 63, 63, 0.836);
     border-radius: .3em;
     padding: .1em;
     margin: auto;
@@ -103,7 +103,7 @@ section{
     font-size: 23pt;
     text-align: center;
     line-height: 1.5em;
-    text-shadow: 1em 1em 1em rgb(255, 255, 255);
+    text-shadow: 1em 1em 1em rgb(150, 147, 147);
     font-family: 'Fjalla One', sans-serif;
     color: rgb(0, 0, 0);
     background: none;
@@ -225,7 +225,7 @@ text-shadow: 0 .1em .5em rgba(79, 80, 80, 0.507);
    font-size: 4em;
    font-family: 'Notable';
    margin-top: -3em;
-   position: relative;
+  
 
    
  }
@@ -325,7 +325,7 @@ text-shadow: 0 .1em .5em rgba(79, 80, 80, 0.507);
 }
 
 .curtain {
-  position: fixed;
+ 
   background-color: var(--contrast);
   width: 100vw;
   min-height: 100vh;
