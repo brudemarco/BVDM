@@ -110,26 +110,32 @@ section{
     margin-top: 0em;
     margin-bottom: 2em;
     text-indent: 0.7em;
+    padding:0em;
 }
 #chart{
   display: block;
   float: right;
-  width:10em;
-  margin-right: 13em;
+  
+}
+.chart{
+  height: 35em;
+  border-radius: 1em;
+  box-shadow: 0 0 .02em rgba(17, 17, 17, 0.76);
+
 
 }
 #about{
     margin-left: 0.3em;
     margin-right: 0.3em;
-    margin-top: 2em;
+    margin-top: .3em;
     display: block;
     
-    font-family: 'Fjalla One', sans-serif;
-    padding: .5em;
+    font-family: 'varela', sans-serif;
+    padding: 1.5em;
     padding-left: 2em;
     padding-right: 2em;
-   
-    line-height: 1.7em;
+   background-color: rgba(221, 217, 217, 0.801);
+    line-height: 2em;
     font-weight: lighter;
     text-indent: 1.7em;
     text-align: left;
@@ -138,17 +144,16 @@ section{
   }
 .text{
    
-  font-size: 16pt;
-  margin-right: 20em;
-  padding-left: 1.em;
+  font-size: 15pt;
+  margin-right: 25em;
+  padding-left: 1em;
+  margin-top: 2.5em;
 
 
    
 }
 
-.card mb-4 shadow-sm{
-  border-radius: 3em;
-}
+
 footer{
 text-align: center;
 font-style: italic;
@@ -195,28 +200,42 @@ text-shadow: 0 .1em .5em rgba(79, 80, 80, 0.507);
   footer p {
     margin-bottom: .25rem;
   }
-  .back{
-    background-color: black;
-  }
+ 
   .albumcenter {
 
-    margin-top: -10em;
-    margin-left: -4.3em;
-    margin-bottom: -15em;
-    border-radius: .3em;
-    width: 76.7em;
-    padding: 0em;
-    padding-top: 3em;
+   
+  margin-left: -2em;
+  
+    width: 76.9em;
+   
+    border-radius: .5em;
+    margin-bottom: -23em;
     
   }
   .container{
-    background-color: rgba(69, 71, 70, 0.459);
+    background-color: rgba(56, 59, 58, 0.747);
+    border-radius: 1em;
+    
   
+  }
+  #bg{
+    background-color: rgba(137, 43, 226, 0);
+  }
+  .navbar{
+    border-radius: 1em;
+    margin-bottom: 5em;
+   
+  }
+  #navi{
+    background-color: black;
   }
   
   #correct{
     padding: 0em;
     
+  }
+  #menupr{
+    margin-bottom: 1em;
   }
 #prj {
    color: rgba(0, 0, 0, 0.788);
@@ -323,7 +342,12 @@ text-shadow: 0 .1em .5em rgba(79, 80, 80, 0.507);
     opacity: 1;
   }
 }
-
+#st{
+  font-family: 'notable';
+  padding-left: 2em;
+  margin: 0;
+  
+}
 .curtain {
  
   background-color: var(--contrast);
@@ -380,3 +404,9 @@ text-shadow: 0 .1em .5em rgba(79, 80, 80, 0.507);
   }
 
 
+}
+.col-md-4{
+ 
+  border-radius: 1em;
+  padding:2em;
+}
