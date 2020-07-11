@@ -75,6 +75,7 @@ h1{
 }
 #h1{
   font-size: 23pt;
+  
 }
 
 header{
@@ -170,7 +171,7 @@ text-shadow: 0 .1em .5em rgba(79, 80, 80, 0.507);
     padding-top: 3rem;
     padding-bottom: 3rem;
     margin-bottom: 0;
-    background-color: rgb(185, 174, 174);
+    background-color: rgba(185, 174, 174, 0.336);
   }
   @media (min-width: 768px) {
     .jumbotron {
@@ -195,10 +196,12 @@ text-shadow: 0 .1em .5em rgba(79, 80, 80, 0.507);
   footer {
     padding-top: 3rem;
     padding-bottom: 3rem;
+    background-color: bisque
   }
   
   footer p {
     margin-bottom: .25rem;
+    background-color: bisque
   }
  
   .albumcenter {
@@ -238,12 +241,13 @@ text-shadow: 0 .1em .5em rgba(79, 80, 80, 0.507);
     margin-bottom: 1em;
   }
 #prj {
-   color: rgba(0, 0, 0, 0.788);
+   color: rgba(255, 255, 255, 0.644);
    
    text-shadow: 0 0 .3em  honeydew;
    font-size: 4em;
    font-family: 'Notable';
    margin-top: -3em;
+   margin-bottom: 2em;
   
 
    
@@ -409,4 +413,5 @@ text-shadow: 0 .1em .5em rgba(79, 80, 80, 0.507);
  
   border-radius: 1em;
   padding:2em;
+  background-color: rgba(205, 198, 211, 0.664);
 }
