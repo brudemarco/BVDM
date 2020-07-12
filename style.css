@@ -184,7 +184,7 @@ margin: 7em;
 border-radius: 1em;
   padding-top: 3rem;
   padding-bottom: 3rem;
-  background-color:#DEDCDD
+  background-color:rgba(222, 220, 221, 0.452)
 
 }
 
@@ -440,14 +440,19 @@ border-radius: 1em;
  
   border-radius: 1em;
   padding:2em;
-  background-color: rgba(255, 255, 255, 0);
+  background-color: rgba(145, 22, 22, 0);
 }
 h3{
-  margin-left:37%;
+  margin-left:35%;
  
   padding-bottom: 2em;
 }
 .col-xs-12 {
   color: rgba(0, 0, 0, 0.582);
   padding: 1em;
+  padding-right: 2em;
+  text-align: left;
+}
+h4{
+  padding-bottom: 1em;
 }
