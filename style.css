@@ -1,10 +1,22 @@
 body{
-    background-color: rgba(102, 98, 98, 0.555);
+  background-color: white;
     
     padding: 1em;
     
 }
-
+#navbtn{
+  background-color: black;
+}
+.row1{
+  background-color: white;
+  box-shadow: 0 0 1em rgba(150, 144, 144, 0.884);
+  border-radius: 1em;
+}
+#back{
+  background-color: white;
+  box-shadow: 0 0 1em rgba(150, 144, 144, 0.884);
+}
+/*
 #menu {
     background-color: black;
     border-radius: .4em;
@@ -38,27 +50,30 @@ body{
     padding: 1.3em;
 
 
-}
-#sky{
-    margin: -2em;
-    margin-top: -3em ;
-    padding-top: -3em;
-    
-}
+}*/
+
 
 #sky img{
-   width: 75em;
-   height: 30em;
-   border-radius: 1em;
-   margin-top: -3em;
-   padding-top: -3em;
-   margin-bottom: 3em;
+  width: 99%;
+  height: 30em;
+  border-radius: 1em;
+  margin-top: -3em;
+  padding-top: -3em;
+  margin-bottom: 8em
+
+
+   
 
   
 }
 #profile img{
-   width: 20em;
+   width: 20%;
    margin-top: -20em;
+   margin-left: 40%;
+   display: block;
+  
+   
+   
 
 }
 h1{
@@ -69,12 +84,13 @@ h1{
     background: none;
     margin-bottom: 0em;
     text-align: center;
-    margin-right: 1em;
-    margin-left: 1em;
+    margin-right: 5em;
+    margin-left: 5em;
     
 }
 #h1{
   font-size: 23pt;
+  margin-top: 2em;
   
 }
 
@@ -93,8 +109,8 @@ header{
 }
 section{
  
-    background: rgba(63, 63, 63, 0.836);
-    border-radius: .3em;
+  background-color: white;
+      border-radius: .3em;
     padding: .1em;
     margin: auto;
     margin-bottom: 2em;
@@ -112,43 +128,46 @@ section{
     margin-bottom: 2em;
     text-indent: 0.7em;
     padding:0em;
-}
-#chart{
-  display: block;
-  float: right;
+
   
 }
+#chart{
+  float: right;
+  width: 50%;
+}
 .chart{
-  height: 35em;
+  width: 70%;
   border-radius: 1em;
   box-shadow: 0 0 .02em rgba(17, 17, 17, 0.76);
-
+  
+  margin-top: 3em;
+ float: right;
+ margin-left: 0;
 
 }
 #about{
-    margin-left: 0.3em;
-    margin-right: 0.3em;
-    margin-top: .3em;
-    display: block;
+    margin-left: 0;
+    margin-right: 0;
+    
+   float: left;
     
     font-family: 'varela', sans-serif;
     padding: 1.5em;
     padding-left: 2em;
-    padding-right: 2em;
-   background-color: rgba(221, 217, 217, 0.801);
-    line-height: 2em;
+    
+    background-color: white;    line-height: 2em;
     font-weight: lighter;
     text-indent: 1.7em;
     text-align: left;
     text-shadow: 0 0 .02em rgba(126, 128, 128, 0.568);
-    float: left;
+    
   }
 .text{
    
   font-size: 15pt;
   margin-right: 25em;
   padding-left: 1em;
-  margin-top: 2.5em;
+ 
 
 
    
@@ -157,8 +176,8 @@ section{
 
 footer{
 text-align: center;
-font-style: italic;
-text-shadow: 0 .1em .5em rgba(79, 80, 80, 0.507);
+font-style: normal;
+text-shadow: 0 .1em .5em rgba(65, 66, 66, 0.507);
 
 }
 
@@ -171,8 +190,7 @@ text-shadow: 0 .1em .5em rgba(79, 80, 80, 0.507);
     padding-top: 3rem;
     padding-bottom: 3rem;
     margin-bottom: 0;
-    background-color: rgba(185, 174, 174, 0.336);
-  }
+    background-color: white;  }
   @media (min-width: 768px) {
     .jumbotron {
       padding-top: 6rem;
@@ -182,6 +200,7 @@ text-shadow: 0 .1em .5em rgba(79, 80, 80, 0.507);
   
   .jumbotron p:last-child {
     margin-bottom: 10 rem;
+    background-color: white;
   }
   
   .jumbotron h1 {
@@ -191,29 +210,27 @@ text-shadow: 0 .1em .5em rgba(79, 80, 80, 0.507);
   
   .jumbotron .container {
     max-width: 70rem;
+    background-color: white;
   }
   
   footer {
     padding-top: 3rem;
     padding-bottom: 3rem;
-    background-color: bisque
+    background-color:#DEDCDD
   }
   
-  footer p {
-    margin-bottom: .25rem;
-    background-color: bisque
-  }
+
  
   .albumcenter {
 
    
   margin-left: -2em;
-  
-    width: 76.9em;
+  margin-top: -2em;
+    width: 105.3%;
    
     border-radius: .5em;
     margin-bottom: -23em;
-    
+    background-color: white;    
   }
   .container{
     background-color: rgba(56, 59, 58, 0.747);
@@ -222,8 +239,7 @@ text-shadow: 0 .1em .5em rgba(79, 80, 80, 0.507);
   
   }
   #bg{
-    background-color: rgba(137, 43, 226, 0);
-  }
+    background-color: white;  }
   .navbar{
     border-radius: 1em;
     margin-bottom: 5em;
@@ -241,8 +257,7 @@ text-shadow: 0 .1em .5em rgba(79, 80, 80, 0.507);
     margin-bottom: 1em;
   }
 #prj {
-   color: rgba(255, 255, 255, 0.644);
-   
+  background-color: white;   
    text-shadow: 0 0 .3em  honeydew;
    font-size: 4em;
    font-family: 'Notable';
@@ -259,6 +274,7 @@ text-shadow: 0 .1em .5em rgba(79, 80, 80, 0.507);
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  background-color: white;
 }
 
 @media (min-width: 768px) {
@@ -274,13 +290,13 @@ text-shadow: 0 .1em .5em rgba(79, 80, 80, 0.507);
 
 :root {
   --contrast: #112d4e;
-  --bgColor: #a9b3b2;
+  --bgColor:  white;;
   --fontColor: #112d4e;
 }
 
 #main {
   min-height: 50vh;
-  background-color: var(--bgColor);
+  background-color:white;
   border: 12px solid var(--contrast);
   text-shadow: 0 0.3em 0 rgba(126, 128, 128, 0.37);
 }
@@ -292,7 +308,7 @@ text-shadow: 0 .1em .5em rgba(79, 80, 80, 0.507);
   margin-top: 0em;
   padding: 0;
   margin-left: 5em;
-}
+  background-color: white;}
 
 .box {
   padding: 0px -10px;
@@ -301,6 +317,7 @@ text-shadow: 0 .1em .5em rgba(79, 80, 80, 0.507);
   font-family: "notable", sans-serif;
   color: var(--fontColor);
   margin-bottom: 0em;
+  background-color: white;
 }
 .boxflex{
   padding: 0em;
@@ -413,5 +430,4 @@ text-shadow: 0 .1em .5em rgba(79, 80, 80, 0.507);
  
   border-radius: 1em;
   padding:2em;
-  background-color: rgba(205, 198, 211, 0.664);
-}
+  background-color: rgba(255, 255, 255, 0);}
