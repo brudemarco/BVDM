@@ -55,16 +55,14 @@ body{
 
 
 #sky img{
-  width: 99%;
+  width: 95%;
   height: 30em;
   border-radius: 1em;
+  margin-left: 2.5%;
   margin-top: -3em;
   padding-top: -3em;
-  margin-bottom: 8em
-
-
-   
-
+  margin-bottom: 8em;
+  box-shadow: 0 .05em 1em rgba(29, 29, 29, 0.637);
   
 }
 #profile img{
@@ -134,7 +132,9 @@ section{
 }
 #chart{
   float: right;
+  margin-right: 10em;
   width: 50%;
+  margin-left: -10em;
 }
 .chart{
   width: 70%;
@@ -147,8 +147,9 @@ section{
 
 }
 #about{
-    margin-left: 0;
+    margin-left: 7%;
     margin-right: 0;
+    margin-top:1em ;
     
    float: left;
     
@@ -165,9 +166,9 @@ section{
   }
 .text{
    
-  font-size: 15pt;
-  margin-right: 25em;
-  padding-left: 1em;
+  font-size: 13pt;
+  margin-left: -3em;
+padding-right: 50%;
  
 
 
@@ -226,13 +227,14 @@ border-radius: 1em;
   .albumcenter {
 
    
-  margin-left: -2em;
-  margin-top: -2em;
-    width: 105.3%;
-   
-    border-radius: .5em;
-    margin-bottom: -23em;
-    background-color: white;    
+    width: 95%;
+    height: 30em;
+    border-radius: 1em;
+    margin-left: 2.5%;
+    margin-top: -3em;
+    padding-top: -3em;
+    margin-bottom: 8em;
+    box-shadow: 0 .05em 1em rgba(29, 29, 29, 0.637);
   }
   .container{
     background-color: rgba(56, 59, 58, 0.747);
@@ -266,15 +268,17 @@ border-radius: 1em;
     margin-bottom: 1em;
   }
 #prj {
-  background-color: white;   
    text-shadow: 0 0 .3em  honeydew;
    font-size: 4em;
    font-family: 'Notable';
-   margin-top: -3em;
-   margin-bottom: 2em;
+  
+   padding-bottom: -40em;
   color: aliceblue;
 
    
+ }
+ #boton{
+   margin-top: 50em;
  }
  .bd-placeholder-img {
   font-size: 1.125rem;
