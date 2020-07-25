@@ -148,6 +148,16 @@ section{
  margin-left: 0;
 
 }
+#chat2{
+  width: 35%;
+  margin-left: -10%;
+  padding: 0;
+}
+#txt_esp{
+  margin-left: 5%;
+  padding-right:-20%;
+  margin-right: -20%;
+}
 #about{
     margin-left: 7%;
     margin-right: 0;
