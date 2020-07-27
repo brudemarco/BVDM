@@ -12,6 +12,7 @@ body{
   background-color: white;
   box-shadow: 0 0 1em rgba(150, 144, 144, 0.884);
   border-radius: 1em;
+  padding-top: -50em;
 }
 #back{
   background-color: white;
@@ -400,8 +401,8 @@ border-radius: 1em;
   }
 }
 #st{
-  font-family: 'notable';
-  padding-left: 2em;
+  font-family: 'Source Sans Pro', sans-serif;
+    padding-left: 2em;
   margin: 0;
   
 }
@@ -464,9 +465,13 @@ border-radius: 1em;
   background-color: rgba(145, 22, 22, 0);
 }
 h3{
-  margin-left:35%;
- 
+  margin-left:45%;
+  
   padding-bottom: 2em;
+  
+}
+#arriba{
+  margin-top: 6em;
 }
 .col-xs-12 {
   color: rgba(0, 0, 0, 0.582);
@@ -476,4 +481,61 @@ h3{
 }
 h4{
   padding-bottom: 1em;
+}
+
+
+#bruma{
+background-color: black;
+position: absolute;
+margin-top: -20em;
+display: inline-block;
+padding-right: 35%;
+padding-left: 35%;
+margin-left: -46%;
+padding-bottom: 3em;
+}
+
+
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+  position: relative;
+
+  min-width: 100%;
+  min-height: 800%;
+  border-radius: 1em;
+}
+
+/* Add some content at the bottom of the video/page */
+.content {
+  margin-bottom: -140em;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 140%;
+  margin-left: -20%;
+  margin-top: -10em;
+  border-radius: 1em;
+ 
+}
+
+/* Style the button used to pause/play the video */
+#myBtn {
+  
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+  font-family: 'varela';
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
+}
+
+#tron{
+  color: black;
+  background-color: white;
 }

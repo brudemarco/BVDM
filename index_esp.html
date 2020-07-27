@@ -19,7 +19,9 @@
   <link href="https://fonts.googleapis.com/css?family=Unica+One" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-  <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/carousel/">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/carousel/">
 
   <!-- Bootstrap core CSS -->
   <link href="../assets/dist/css/bootstrap.css" rel="stylesheet">
@@ -114,7 +116,7 @@
       </section>
       <section id="intro">
         <div>
-          <h1 id="h1">Multidisciplinary professional with tech skills </h1>
+          <h1 id="h1">Profesional multidisciplinaria con formación en Nuevas Tecnologías. </h1>
         </div>
       </section>
       <section id="about">
@@ -138,7 +140,7 @@
             <img class="albumcenter" height="700em" src="/img/sky3.png">
       </div>
 
-      <section class="jumbotron text-center">
+      <section id="tron" class="jumbotron text-center">
         <div id='bg' class="container1">
 
 
@@ -333,19 +335,42 @@
            Call to action bootstrap-->
 
   <footer class="text-muted">
+
+
+   
+
+
     <div class="contenedor">
 
-      <div class="row">
-        <h3>Previous Experience</h3>
-        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+       <!-- The video -->
+       <div class="content">
+ <video autoplay muted loop id="myVideo">
+  <source src="img/rain.mp4" type="video/mp4">
+</video>
 
+<!-- Optional: some overlay text to describe the video
+
+  <h1>Heading</h1>
+  <p>Lorem ipsum...</p>
+  Use a button to pause/play the video with JavaScript -->
+  
+  <button id="myBtn" onclick="myFunction()">Pause</button>
+  <p id="bruma">
+    <br><br><br><strong>Bruna Vignola de Marco</strong> &copy;<br><br>brudemarco@gmail.com<br>11 3130-4232<br>Córdoba - Argentina<br>
+</p>
+</div>
+
+      <div id="exp" class="row">
+       
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+          <h3>Experiencia Previa</h3>
           <h4>eSSENTIAL Accessibility (2020)</h4>
           <p>
             Six months of experience working as an accessibility tester, Q.A. and translator for several international
             clients from Canada, Brasil and the US.
           </p>
         </div>
-        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+        <div id='arriba' class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
           <h4> Mozio Mobility Group (2019)</h4>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa a itaque, maiores, iusto necessitatibus facere
@@ -366,16 +391,16 @@
             non delectus qui aliquid reprehenderit voluptas eos beatae neque quo ex dolor deleniti cum vero.
           </p>
         </div>
+        
       </div>
 
 
     </div>
 
     </section>
-    <p>
-      ARC&copy;<br>Bruna Vignola de Marco
-    </p>
+    
   </footer>
+  
   <script src="script.js"></script>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
