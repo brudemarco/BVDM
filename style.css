@@ -3,6 +3,7 @@ body{
     
     padding: 1em;
     position: relative;
+  
     
 }
 #navbtn{
@@ -465,13 +466,14 @@ border-radius: 1em;
   background-color: rgba(145, 22, 22, 0);
 }
 h3{
+  padding-top: 4em;
   margin-left:45%;
   
-  padding-bottom: 2em;
+  padding-bottom: 4em;
   
 }
 #arriba{
-  margin-top: 6em;
+  margin-top: 16em;
 }
 .col-xs-12 {
   color: rgba(0, 0, 0, 0.582);
@@ -500,16 +502,17 @@ padding-bottom: 3em;
 #myVideo {
   position: relative;
 
-  min-width: 100%;
-  min-height: 800%;
+  min-width: 97%;
+  min-height: 400%;
   border-radius: 1em;
+  margin-right: 0;
 }
 
 /* Add some content at the bottom of the video/page */
 .content {
   margin-bottom: -140em;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(255, 255, 255, 0.5);
   color: #f1f1f1;
   width: 140%;
   margin-left: -20%;
@@ -517,6 +520,7 @@ padding-bottom: 3em;
   border-radius: 1em;
  
 }
+
 
 /* Style the button used to pause/play the video */
 #myBtn {
