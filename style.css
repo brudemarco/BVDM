@@ -17,7 +17,6 @@ body{
 }
 #back{
   background-color: white;
-  box-shadow: 0 0 1em rgba(150, 144, 144, 0.884);
 }
 /*
 #menu {
@@ -208,7 +207,6 @@ border-radius: 1em;
 
     border-radius: 1em;
 
-    box-shadow: 0 .05em 1em rgba(29, 29, 29, 0.637);
     position: absolute;
     
   }
@@ -225,15 +223,13 @@ border-radius: 1em;
   
   }
   #container{
-    background-color: rgba(56, 59, 58, 0.747);
+    background-color: white;
     border-radius: 1em;
   
     
    
   }
-  .alb{
  
-  }
   #bg{
     background-color: white; 
     display: none;
@@ -510,15 +506,9 @@ padding-bottom: 3em;
 
 /* Add some content at the bottom of the video/page */
 .content {
-  margin-bottom: -140em;
-  bottom: 0;
-  background: rgba(255, 255, 255, 0.5);
-  color: #f1f1f1;
-  width: 140%;
-  margin-left: -20%;
-  margin-top: -10em;
-  border-radius: 1em;
- 
+ margin-left: auto;
+  width: 100%
+  
 }
 
 
@@ -542,4 +532,34 @@ padding-bottom: 3em;
 #tron{
   color: black;
   background-color: white;
+}
+#wtbg{
+  background-color: white;
+}
+#ft{
+  background-color: white;
+  color: black;
+}
+#art{
+  background-color: white;
+  margin-top: 23em;
+}
+footer{
+  margin-top: -140em;
+  text-decoration: black;
+}
+#boton{
+margin-left: 50%;
+
+color: rgb(0, 0, 0);
+padding: 2em;
+
+}
+button:hover{
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+#contenedor{
+text-decoration: black;
+
 }

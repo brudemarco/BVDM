@@ -149,19 +149,18 @@
         <h2 id="prj">PROJECTS</h2>
             <img class="albumcenter" height="700em" src="/img/sky3.png">
       </div>
-
-      <section class="jumbotron text-center">
+      <section id='art' class="jumbotron text-center">
         <div id='bg' class="container1">
 
 
+          <!--
           <p>
            
          
           <a href="#" id='boton'class="btn btn-primary my-2">Contact Info</a>
-
-          <!--  <a href="#" class="btn btn-secondary my-2">Secondary action</a> -->
+  <a href="#" class="btn btn-secondary my-2">Secondary action</a> 
           </p>
-        
+        -->
         </div>
     
         <div >
@@ -338,13 +337,27 @@
        
        </div>
       
-    
+     The video -->
+    <div class="content">
+      <video autoplay muted loop id="myVideo">
+       <source src="img/rain.mp4" type="video/mp4">
+     </video>
+     
+     <!-- Optional: some overlay text to describe the video
+     
+       <h1>Heading</h1>
+       <p>Lorem ipsum...</p>
+       Use a button to pause/play the video with JavaScript -->
+       
+       <button id="myBtn" onclick="myFunction()">Pause</button>
+       <div id='boton'>
+       <button >Contactos </button>
+      </div>
        
        
-       
-           Call to action bootstrap-->
 
-  <footer class="text-muted">
+
+  <footer id='ft'; class="text-muted">
     <div class="contenedor">
 
       <div class="row">
@@ -387,6 +400,7 @@
     <p>
       ARC&copy;<br>Bruna Vignola de Marco
     </p>
+    
   </footer>
   <script src="script.js"></script>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
