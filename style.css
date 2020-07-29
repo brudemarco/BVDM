@@ -17,6 +17,7 @@ body{
 }
 #back{
   background-color: white;
+
 }
 /*
 #menu {
@@ -275,7 +276,8 @@ border-radius: 1em;
   padding-top: 3rem;
   padding-bottom: 3rem;
   margin-bottom: 0;
-  background-color: white;  }
+  background-color: white; 
+ }
 @media (min-width: 768px) {
   .jumbotron {
     padding-top: 6rem;
@@ -286,6 +288,7 @@ border-radius: 1em;
 .jumbotron p:last-child {
   margin-bottom: 10 rem;
   background-color: white;
+  
 }
 
 .jumbotron h1 {
@@ -296,6 +299,7 @@ border-radius: 1em;
 .jumbotron .container {
 
   background-color: white;
+  
 }
  .bd-placeholder-img {
   font-size: 1.125rem;
@@ -460,7 +464,7 @@ border-radius: 1em;
  
   border-radius: 1em;
   padding:2em;
-  background-color: rgba(145, 22, 22, 0);
+  background-color: rgba(255, 255, 255, 0);
 }
 h3{
   padding-top: 4em;
@@ -473,11 +477,13 @@ h3{
   margin-top: 16em;
 }
 .col-xs-12 {
-  color: rgba(0, 0, 0, 0.582);
+  color: rgba(255, 255, 255, 0.582);
   padding: 1em;
   padding-right: 2em;
   text-align: left;
+  
 }
+
 h4{
   padding-bottom: 1em;
 }
@@ -577,9 +583,12 @@ button:hover{
 #contenedor{
 text-decoration: black;
 
+
 }
 .row{
   padding-top: 10em;
+  
+  
 }
 #cnt{
 display: inline-block;
@@ -589,4 +598,11 @@ color: black;
 margin-top: 10em;
 display: inline-block;
 color: black;
+}
+#border1{
+  border-style: none;
+  border-color: white;
+}
+.card-body{
+  border-color: white;
 }
