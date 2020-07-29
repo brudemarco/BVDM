@@ -3,6 +3,7 @@ body{
     
     padding: 1em;
     position: relative;
+    
   
     
 }
@@ -17,6 +18,8 @@ body{
 }
 #back{
   background-color: white;
+
+  
 
 }
 /*
@@ -277,6 +280,7 @@ border-radius: 1em;
   padding-bottom: 3rem;
   margin-bottom: 0;
   background-color: white; 
+  outline: none;
  }
 @media (min-width: 768px) {
   .jumbotron {
@@ -299,6 +303,7 @@ border-radius: 1em;
 .jumbotron .container {
 
   background-color: white;
+  outline: none;
   
 }
  .bd-placeholder-img {
@@ -333,6 +338,7 @@ border-radius: 1em;
   background-color:white;
   border: 12px solid var(--contrast);
   text-shadow: 0 0.3em 0 rgba(126, 128, 128, 0.37);
+  
 }
 
 .flex {
@@ -357,6 +363,7 @@ border-radius: 1em;
   margin-bottom: 2em;
   background-color: white;
   margin-top: 6em;
+  
 }
 .boxflex{
   padding: 0em;
@@ -406,6 +413,7 @@ border-radius: 1em;
   font-family: 'Source Sans Pro', sans-serif;
     padding-left: 2em;
   margin: 0;
+  
   
 }
 .curtain {
@@ -465,6 +473,7 @@ border-radius: 1em;
   border-radius: 1em;
   padding:2em;
   background-color: rgba(255, 255, 255, 0);
+  
 }
 h3{
   padding-top: 4em;
@@ -484,8 +493,10 @@ h3{
   
 }
 
-h4{
+.ache4{
   padding-bottom: 1em;
+  padding-top: 2em;
+  margin-top: 3em;
 }
 
 
@@ -541,13 +552,16 @@ padding-bottom: 3em;
 #tron{
   color: black;
   background-color: white;
+  
 }
 #wtbg{
   background-color: white;
+  
 }
 #ft{
   background-color: white;
   color: black;
+  
 }
 #art{
   background-color: white;
@@ -560,25 +574,19 @@ footer{
 #bu{
   color: white;
   background-color: black;
-  padding: 3em;
+  padding-left: 6em;
+  padding-right: 15em;
   font-family: 'bungee shade';
   font-size: 1.5em;
   border-radius: 1em;
   
 }
 #boton{
-margin-left: 50%;
+margin-left: 60%;
 margin-top: 13em;
 
-
-
 color: rgb(0, 0, 0);
-padding: 2em;
 
-}
-button:hover{
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
 }
 #contenedor{
 text-decoration: black;
@@ -587,6 +595,7 @@ text-decoration: black;
 }
 .row{
   padding-top: 10em;
+  outline: none;
   
   
 }
@@ -606,3 +615,28 @@ color: black;
 .card-body{
   border-color: white;
 }
+.collapsible {
+  background-color: #eee;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  padding: 8%;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  font-family: 'varela';
+ 
+ 
+}
+  .nido {
+    padding: 10%;
+    margin-top: -3.5em;
+    overflow: hidden;
+    background-color: #ffffff;
+    font-family: 'varela';
+    border-radius: .5em;
+    max-height: 0;
+    width: 25em;
+    transition: max-height 0.2s ease-out;
+  }
