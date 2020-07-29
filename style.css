@@ -11,9 +11,9 @@ body{
 }
 .row1{
   background-color: white;
-  box-shadow: 0 0 1em rgba(150, 144, 144, 0.884);
   border-radius: 1em;
   padding-top: -50em;
+  border: none;
 }
 #back{
   background-color: white;
@@ -195,11 +195,12 @@ text-align: center;
 font-style: normal;
 color: #201e1e;
 padding: 4em;
-margin: 7em;
+margin-top: 27em;
 border-radius: 1em;
   padding-top: 3rem;
   padding-bottom: 3rem;
   background-color:rgba(222, 220, 221, 0.452)
+  
 
 }
  .albumcenter {
@@ -496,21 +497,23 @@ padding-bottom: 3em;
 
 /* Style the video: 100% width and height to cover the entire window */
 #myVideo {
-  position: relative;
 
   min-width: 97%;
   min-height: 400%;
   border-radius: 1em;
   margin-right: 0;
+  
 }
-
+#lluvia{
+  margin-top: -10em;
+}
 /* Add some content at the bottom of the video/page */
 .content {
  margin-left: auto;
   width: 100%
+
   
 }
-
 
 /* Style the button used to pause/play the video */
 #myBtn {
@@ -545,11 +548,23 @@ padding-bottom: 3em;
   margin-top: 23em;
 }
 footer{
-  margin-top: -140em;
+  margin-top: -160em;
   text-decoration: black;
+}
+#bu{
+  color: white;
+  background-color: black;
+  padding: 3em;
+  font-family: 'bungee shade';
+  font-size: 1.5em;
+  border-radius: 1em;
+  
 }
 #boton{
 margin-left: 50%;
+margin-top: 13em;
+
+
 
 color: rgb(0, 0, 0);
 padding: 2em;
@@ -562,4 +577,16 @@ button:hover{
 #contenedor{
 text-decoration: black;
 
+}
+.row{
+  padding-top: 10em;
+}
+#cnt{
+display: inline-block;
+color: black;
+}
+#cnt2{
+margin-top: 10em;
+display: inline-block;
+color: black;
 }
