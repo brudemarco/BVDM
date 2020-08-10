@@ -568,7 +568,7 @@ padding-bottom: 3em;
 #ft{
   background-color: white;
   color: black;
-  margin-top: 0em;
+  margin-top: -20em;
   
 }
 #art{
@@ -582,12 +582,14 @@ footer{
 #bu{
   color: white;
   background-color: black;
-  padding-left: 6em;
-  padding-right: 15em;
+  padding-left: 10%;
+  padding-right: 15%;
   font-family: 'notable';
   font-size: 1.8em;
   border-radius: 1em;
-  text-shadow: 0 0 1em rgba(255, 255, 255, 0.884);
+  margin-top: 7em;
+  
+  
 }
 #boton{
 margin-left: 10%;
@@ -596,8 +598,13 @@ margin-top: 8em;
 color: rgb(0, 0, 0);
 
 }
-#contenedor{
+.contenedor{
 text-decoration: black;
+text-align: left;
+padding: 10em;
+margin: 3em;
+font-family: "varela";
+text-indent: 2em;
 
 
 }
@@ -638,11 +645,11 @@ color: black;
   color: rgb(255, 255, 255);
   cursor: pointer;
   padding: 8%;
-  width: 100%;
+  width: 80%;
   border: none;
-  text-align: left;
+  text-align:center;
   outline: none;
-  font-size: 15px;
+  font-size: 25px;
   font-family: 'varela';
  
  
